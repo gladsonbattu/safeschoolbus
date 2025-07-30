@@ -45,11 +45,19 @@ const Hero = () => {
           <div className="bg-white rounded-2xl shadow-2xl p-8 max-w-4xl mx-auto">
             <div className="aspect-video bg-gradient-to-br from-blue-100 to-orange-100 rounded-xl flex items-center justify-center">
               <div className="text-center">
-                <div className="w-24 h-24 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <MapPin className="w-12 h-12 text-white" />
+                <div className="w-32 h-56 bg-gray-800 rounded-3xl flex flex-col items-center justify-center mx-auto mb-4 relative overflow-hidden">
+                  <div className="w-28 h-52 bg-blue-50 rounded-2xl m-2 flex flex-col items-center justify-start pt-8">
+                    <div className="w-20 h-20 bg-blue-600 rounded-full flex items-center justify-center mb-4">
+                      <MapPin className="w-10 h-10 text-white" />
+                    </div>
+                    <div className="text-xs font-semibold text-gray-800 mb-2">School Bus Tracker</div>
+                    <div className="w-16 h-2 bg-green-500 rounded-full mb-1"></div>
+                    <div className="text-xs text-gray-600">Live Tracking</div>
+                  </div>
+                  <div className="absolute bottom-2 w-12 h-1 bg-gray-600 rounded-full"></div>
                 </div>
-                <h3 className="text-2xl font-bold text-gray-800 mb-2">Live Tracking Dashboard</h3>
-                <p className="text-gray-600">See your buses in real-time on an interactive map</p>
+                <h3 className="text-2xl font-bold text-gray-800 mb-2">Mobile App Experience</h3>
+                <p className="text-gray-600">Track your child's bus in real-time on any device</p>
               </div>
             </div>
           </div>

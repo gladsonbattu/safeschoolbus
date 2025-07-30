@@ -62,19 +62,9 @@ const Features = () => {
             <div className="bg-gradient-to-br from-blue-500 to-orange-500 rounded-2xl p-8 text-white">
               <div className="text-center">
                 <h3 className="text-2xl font-bold mb-4">Ready to Get Started?</h3>
-                <p className="mb-6 text-blue-100">
+                <p className="mb-8 text-blue-100">
                   Join thousands of satisfied schools and parents who trust our tracking solution.
                 </p>
-                <div className="grid grid-cols-2 gap-4 mb-6">
-                  <div className="text-center">
-                    <div className="text-3xl font-bold">500+</div>
-                    <div className="text-sm text-blue-100">Schools</div>
-                  </div>
-                  <div className="text-center">
-                    <div className="text-3xl font-bold">50K+</div>
-                    <div className="text-sm text-blue-100">Parents</div>
-                  </div>
-                </div>
                 <button className="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
                   Start Free Trial
                 </button>
