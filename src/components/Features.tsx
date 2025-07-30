@@ -10,7 +10,7 @@ const Features = () => {
       description: "Reliable tracking with redundant systems and 24/7 monitoring"
     },
     {
-      icon: <Clock className="w-6 h-6 text-blue-500" />,
+      icon: <Clock className="w-6 h-6 text-yellow-500" />,
       title: "Real-time Updates",
       description: "Live location updates every 10 seconds for accurate tracking"
     },
@@ -59,13 +59,13 @@ const Features = () => {
           </div>
           
           <div className="relative">
-            <div className="bg-gradient-to-br from-blue-500 to-orange-500 rounded-2xl p-8 text-white">
+            <div className="bg-gradient-to-br from-yellow-500 to-orange-500 rounded-2xl p-8 text-white">
               <div className="text-center">
                 <h3 className="text-2xl font-bold mb-4">Ready to Get Started?</h3>
-                <p className="mb-8 text-blue-100">
+                <p className="mb-8 text-yellow-100">
                   Join thousands of satisfied schools and parents who trust our tracking solution.
                 </p>
-                <button className="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+                <button className="bg-white text-yellow-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
                   Start Free Trial
                 </button>
               </div>
