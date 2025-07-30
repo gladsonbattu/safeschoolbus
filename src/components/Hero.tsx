@@ -5,22 +5,22 @@ import { MapPin, Shield, Smartphone } from 'lucide-react';
 
 const Hero = () => {
   return (
-    <section className="relative bg-gradient-to-br from-yellow-50 via-white to-orange-50 py-20 px-4 sm:px-6 lg:px-8">
+    <section className="relative bg-gradient-to-br from-blue-50 via-white to-orange-50 py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="text-center">
           <h1 className="text-4xl sm:text-6xl font-bold text-gray-900 mb-6">
             Safe School Bus
-            <span className="text-yellow-600 block">Tracking Solutions</span>
+            <span className="text-blue-600 block">Tracking Solutions</span>
           </h1>
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
             Give parents peace of mind and schools complete visibility with our advanced 
             real-time GPS tracking system for school transportation.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-            <Button size="lg" className="bg-yellow-600 hover:bg-yellow-700 text-white px-8 py-3">
+            <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3">
               Request Demo
             </Button>
-            <Button variant="outline" size="lg" className="border-yellow-600 text-yellow-600 hover:bg-yellow-50 px-8 py-3">
+            <Button variant="outline" size="lg" className="border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-3">
               View Features
             </Button>
           </div>
@@ -31,7 +31,7 @@ const Hero = () => {
               <span>100% Safe & Secure</span>
             </div>
             <div className="flex items-center">
-              <MapPin className="w-5 h-5 text-yellow-500 mr-2" />
+              <MapPin className="w-5 h-5 text-blue-500 mr-2" />
               <span>Real-time GPS</span>
             </div>
             <div className="flex items-center">
@@ -43,11 +43,11 @@ const Hero = () => {
         
         <div className="relative">
           <div className="bg-white rounded-2xl shadow-2xl p-8 max-w-4xl mx-auto">
-            <div className="aspect-video bg-gradient-to-br from-yellow-100 to-orange-100 rounded-xl flex items-center justify-center">
+            <div className="aspect-video bg-gradient-to-br from-blue-100 to-orange-100 rounded-xl flex items-center justify-center">
               <div className="text-center">
                 <div className="w-32 h-56 bg-gray-800 rounded-3xl flex flex-col items-center justify-center mx-auto mb-4 relative overflow-hidden">
-                  <div className="w-28 h-52 bg-yellow-50 rounded-2xl m-2 flex flex-col items-center justify-start pt-8">
-                    <div className="w-20 h-20 bg-yellow-600 rounded-full flex items-center justify-center mb-4">
+                  <div className="w-28 h-52 bg-blue-50 rounded-2xl m-2 flex flex-col items-center justify-start pt-8">
+                    <div className="w-20 h-20 bg-blue-600 rounded-full flex items-center justify-center mb-4">
                       <MapPin className="w-10 h-10 text-white" />
                     </div>
                     <div className="text-xs font-semibold text-gray-800 mb-2">School Bus Tracker</div>
