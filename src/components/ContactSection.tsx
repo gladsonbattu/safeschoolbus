@@ -121,7 +121,7 @@ const ContactSection = () => {
                   />
                 </div>
                 
-                <Button type="submit" className="w-full bg-blue-600 hover:bg-blue-700 text-white py-3">
+                <Button type="submit" className="w-full bg-gradient-to-r from-yellow-400 to-yellow-500 hover:from-yellow-500 hover:to-yellow-600 text-white py-3 shadow-lg">
                   Request Demo
                 </Button>
               </form>
@@ -134,31 +134,31 @@ const ContactSection = () => {
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">Get in Touch</h3>
                 <div className="space-y-4">
                   <div className="flex items-center">
-                    <Phone className="w-5 h-5 text-blue-600 mr-3" />
+                    <Phone className="w-5 h-5 text-yellow-500 mr-3" />
                     <span className="text-gray-600">+91 9876543210</span>
                   </div>
                   <div className="flex items-center">
-                    <Mail className="w-5 h-5 text-blue-600 mr-3" />
+                    <Mail className="w-5 h-5 text-yellow-500 mr-3" />
                     <span className="text-gray-600">info@safeschoolbus.com</span>
                   </div>
                   <div className="flex items-start">
-                    <MapPin className="w-5 h-5 text-blue-600 mr-3 mt-1" />
+                    <MapPin className="w-5 h-5 text-yellow-500 mr-3 mt-1" />
                     <span className="text-gray-600">
                       123 Technology Park<br />
                       Gurgaon, Haryana 122001
                     </span>
                   </div>
                   <div className="flex items-center">
-                    <Clock className="w-5 h-5 text-blue-600 mr-3" />
+                    <Clock className="w-5 h-5 text-yellow-500 mr-3" />
                     <span className="text-gray-600">Mon - Fri: 9:00 AM - 6:00 PM</span>
                   </div>
                 </div>
               </CardContent>
             </Card>
             
-            <div className="bg-gradient-to-br from-blue-600 to-orange-600 rounded-xl p-6 text-white">
+            <div className="bg-gradient-to-br from-yellow-400 to-yellow-500 rounded-xl p-6 text-white shadow-lg">
               <h3 className="text-xl font-semibold mb-4">Why Wait?</h3>
-              <ul className="space-y-2 text-blue-100">
+              <ul className="space-y-2 text-yellow-100">
                 <li>✓ Free 30-day trial</li>
                 <li>✓ Quick setup in under 24 hours</li>
                 <li>✓ Dedicated support team</li>
