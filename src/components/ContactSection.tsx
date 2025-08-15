@@ -23,17 +23,16 @@ const ContactSection = () => {
               <div className="space-y-4">
                 <div className="flex items-center">
                   <Phone className="w-5 h-5 text-yellow-500 mr-3" />
-                  <span className="text-gray-600">+91 9876543210</span>
+                  <span className="text-gray-600">+1-813-817-1529</span>
                 </div>
                 <div className="flex items-center">
                   <Mail className="w-5 h-5 text-yellow-500 mr-3" />
-                  <span className="text-gray-600">info@safeschoolbus.com</span>
+                  <span className="text-gray-600">info@safeschoolbus.in</span>
                 </div>
                 <div className="flex items-start">
                   <MapPin className="w-5 h-5 text-yellow-500 mr-3 mt-1" />
                   <span className="text-gray-600">
-                    123 Technology Park<br />
-                    Gurgaon, Haryana 122001
+                    Hyderabad, Telangana
                   </span>
                 </div>
                 <div className="flex items-center">
