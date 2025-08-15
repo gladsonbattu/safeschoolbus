@@ -1,9 +1,16 @@
 
 import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
-import { Phone, Mail, MapPin, Clock } from 'lucide-react';
+import { Phone, Mail, MapPin, Clock, MessageCircle } from 'lucide-react';
 
 const ContactSection = () => {
+  const handleWhatsAppClick = () => {
+    // Format phone number for WhatsApp (remove dashes and add country code)
+    const phoneNumber = '18138171529';
+    const message = encodeURIComponent('Hi, I would like to know more about SafeSchoolBus tracking solutions.');
+    window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
+  };
+
   return (
     <section id="contact-section" className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
       <div className="max-w-7xl mx-auto">
@@ -28,6 +35,13 @@ const ContactSection = () => {
                 <div className="flex items-center">
                   <Mail className="w-5 h-5 text-yellow-500 mr-3" />
                   <span className="text-gray-600">info@safeschoolbus.in</span>
+                </div>
+                <div 
+                  className="flex items-center cursor-pointer hover:bg-gray-50 p-2 rounded-lg transition-colors"
+                  onClick={handleWhatsAppClick}
+                >
+                  <MessageCircle className="w-5 h-5 text-green-500 mr-3" />
+                  <span className="text-gray-600 hover:text-green-600">Chat on WhatsApp</span>
                 </div>
                 <div className="flex items-start">
                   <MapPin className="w-5 h-5 text-yellow-500 mr-3 mt-1" />
