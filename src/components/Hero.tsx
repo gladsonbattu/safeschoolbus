@@ -1,9 +1,15 @@
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { MapPin, Shield, Smartphone } from 'lucide-react';
 
 const Hero = () => {
+  const scrollToContact = () => {
+    const contactSection = document.getElementById('contact-section');
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section className="relative bg-gradient-to-br from-yellow-50 via-white to-orange-50 py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
@@ -17,7 +23,11 @@ const Hero = () => {
             real-time GPS tracking system for school transportation.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-            <Button size="lg" className="bg-gradient-to-r from-yellow-400 to-yellow-500 hover:from-yellow-500 hover:to-yellow-600 text-white px-8 py-3 shadow-lg">
+            <Button 
+              size="lg" 
+              className="bg-gradient-to-r from-yellow-400 to-yellow-500 hover:from-yellow-500 hover:to-yellow-600 text-white px-8 py-3 shadow-lg"
+              onClick={scrollToContact}
+            >
               Request Demo
             </Button>
             <Button variant="outline" size="lg" className="border-yellow-500 text-yellow-600 hover:bg-yellow-50 px-8 py-3">
