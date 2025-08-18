@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Separator } from '@/components/ui/separator';
 import { Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
@@ -46,7 +45,7 @@ const Footer = () => {
         
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="text-gray-400 text-sm">
-            © 2024 SafeSchoolBus. All rights reserved.
+            © 2025 SafeSchoolBus. All rights reserved.
           </div>
           <div className="flex space-x-6 text-sm text-gray-400 mt-4 md:mt-0">
             <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>

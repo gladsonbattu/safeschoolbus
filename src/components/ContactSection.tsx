@@ -1,7 +1,6 @@
-
 import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
-import { Phone, Mail, MapPin, Clock, MessageCircle } from 'lucide-react';
+import { Mail, MapPin, Clock, MessageCircle } from 'lucide-react';
 
 const ContactSection = () => {
   const handleWhatsAppClick = () => {
@@ -28,10 +27,6 @@ const ContactSection = () => {
             <CardContent className="p-6">
               <h3 className="text-xl font-semibold text-gray-900 mb-4">Get in Touch</h3>
               <div className="space-y-4">
-                <div className="flex items-center">
-                  <Phone className="w-5 h-5 text-yellow-500 mr-3" />
-                  <span className="text-gray-600">+1-813-817-1529</span>
-                </div>
                 <div className="flex items-center">
                   <Mail className="w-5 h-5 text-yellow-500 mr-3" />
                   <span className="text-gray-600">info@safeschoolbus.in</span>
